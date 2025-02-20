@@ -49,6 +49,13 @@ inputs:
   deployment-gate:
     description: 'The customized inputs to process deployment gate job related change.'
     required: false
+outputs:
+  change-request-number:
+    description: 'The change request number created in ServiceNow'
+  change-request-sys-id:
+    description: 'The change request sys id created in ServiceNow'
+  change-request-details:
+    description: 'The change request details created in ServiceNow'
 branding:
   icon: 'refresh-ccw'
   color: 'green'

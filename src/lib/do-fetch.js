@@ -132,6 +132,7 @@ async function doFetch({
           core.setOutput('change-request-number', currChangeDetails.number);
         if (currChangeDetails.sys_id)
           core.setOutput('change-request-sys-id', currChangeDetails.sys_id);
+        core.setOutput('change-request-details', currChangeDetails);
       }
 
       /**
